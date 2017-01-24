@@ -1,0 +1,227 @@
+@CHARSET "UTF-8";
+html, body{
+  	font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+  	overflow-x: hidden;
+  	overflow-y:hidden; 
+  	margin: 0
+}
+.login-logo {
+  width: 100%;
+  height: 4.5em;
+  line-height: 4.5em;
+  background-color: #009900;
+}
+.login-logo img{
+	margin-left: 2.8em;
+	vertical-align: middle;
+}
+#login{
+  background: #e8e8e8;
+  min-height:850px;
+}
+
+.loginInputArea{
+	position: relative;
+	width: 50em;
+	height: 20.5em;
+	background-color: #fff;
+	border-radius: 3px;
+	margin: 11em auto;
+	font-size: 16px;	
+}
+.loginInputArea .loginInputArea-wrap{
+	overflow: hidden;
+}
+.loginInputArea:before{
+	position: absolute;
+	bottom: 2px;
+	left: -20px;
+	content: '';
+	height: 0;
+	width: 0;
+	border-style: solid;
+	border-width: 5px 10px 5px 10px;
+	border-color: #c3c3c3 #c3c3c3 transparent transparent;
+	
+}
+.loginInputArea:after{
+	position: absolute;
+	bottom: 2px;
+	right: -20px;
+	content: '';
+	height: 0;
+	width: 0;
+	border-style: solid;
+	border-width: 5px 10px 5px 10px;
+	border-color: #c3c3c3 transparent transparent #c3c3c3;
+}
+.loginInputArea .img-wrap{
+	width: 22.31em;
+	height: 100%;
+	float: left;
+	margin-right: 4.6875em;
+}
+.loginInputArea .img-wrap img{
+	width: 100%;
+	height: 100%;
+}
+.loginInputArea form{
+	float: left;
+}
+.loginInputArea input[type="text"].loginVc{
+	width: 10em;
+}
+.loginInputArea .user{
+	margin-top: 30px;
+}
+.loginInputArea .loginName{
+	background: url("../images/i-user.png") no-repeat center left;
+	background-size: 19px auto;
+}
+.loginInputArea .loginPwd{
+	background: url("../images/i-lock.png") no-repeat center left;
+	background-size: 15px auto;
+}
+.loginInputArea .loginVc{
+	background: url("../images/i-code.png") no-repeat center left;
+	background-size: 16px auto;
+}
+.loginInputArea input[type="text"] {
+  width: 16.25em;
+  padding: 10px 0 10px 30px;
+  color: #999;
+  font-size: 16px;
+  outline: none;
+  font-weight: 300;
+  border: none;
+  margin:0 0 10px 0;
+  border-bottom: 1px solid #cdcdcd;
+}
+.loginInputArea input[type="password"] {
+  width: 16.25em;
+  padding: 10px 0 10px 30px;
+  color:#999;
+  font-size: 16px;
+  outline: none;
+  font-weight: 300;
+  border: none;
+  margin:0 0 10px 0;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-bottom: 1px solid #cdcdcd;
+}
+.loginInputArea input[type="button"]{
+  font-size: 21px;
+  font-weight: 300 !important;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1.428em;
+  width: 13.8em;
+  height: 2.14em;
+  line-height: 2.14em;
+  border: none;
+  background: #1bb31b;
+  text-transform: uppercase;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.loginInputArea .imgNumPic{
+	width: 6em;
+	height: 2em;
+	margin-left: 5px;
+	border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+
+.loginInputArea .alink {
+  list-style:none;
+  padding:0;
+}
+.loginInputArea .alink a{
+	color: #999;
+	font-size: 18px;
+}
+
+/* #login{
+  background: url(../images/bg.jpg)no-repeat;
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  min-height:850px;
+}
+.loginInputArea{
+  width:22%;
+  margin:3em auto auto auto;
+}
+.loginInputArea input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  color: #999;
+  font-size: 0.85em;
+  outline: none;
+  font-weight: 300;
+  border: none;
+  background:#222224;
+  margin:0 0 1em 0;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.loginInputArea input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  color:#999;
+  font-size: 0.85em;
+  outline: none;
+  font-weight: 300;
+  border: none;
+  background:#222224;
+  margin:0 0 1em 0;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+}
+.loginInputArea input[type="button"]{
+  font-size: 14px;
+  font-weight: 300 !important;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+  border: none;
+  background: rgb(6, 217, 149);
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -o-border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.loginInputArea .alink {
+  margin:2em 0 0 0;
+  list-style:none;
+  padding:0;
+}
+.copy_layout {
+  padding:1.5em 0;
+  text-align:center;
+  margin: 15em 0 0em 0;
+}
+.copy_layout p{
+	font-size:0.95em;
+	color:#555;
+} */
+

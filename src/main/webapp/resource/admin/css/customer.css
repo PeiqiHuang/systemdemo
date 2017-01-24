@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+*{font-size:15px; font-family:Tahoma,Verdana,微软雅黑,新宋体}
+p{margin:0; padding:0;}
+body{background: #F5F5F5 ;}
+a{ color:Black; text-decoration:none;}
+a:hover{ color:Red; text-decoration:underline;}
+
+/*顶部--Start*/
+.north-logo{margin-left: 10px;margin-top:10px;float: left}
+.north-logo img{height: 41px;}
+.north-fun{float: right;}
+.north-fun a{color: #fff;text-decoration: none;}
+.north-fun .msg{float:left; border-right: 1px solid #009900;height: 50px;background: url("../images/msg.png") 3px center no-repeat;padding:0 14px 10px 40px;font-size:14px;line-height: 70px;}
+.north-fun .loginout{float:left; border-right: 1px solid #009900;display: block;background: url("../images/logout.png") left 9px no-repeat;padding-left: 40px;text-indent:-9999px;height:50px;margin-top: 8px}
+.north-fun .userinfo{float:left;height: 50px; background: url("../images/userInfo.png") 3px center no-repeat;padding:0 20px 10px 50px;}
+.north-fun .userinfo p{margin-bottom: 5px;line-height:14px;text-align: center;padding-top:11px;}
+.north-fun .userinfo p.u-name{font-size: 15px;}
+.north-fun .userinfo p.u-role{font-size: 12px;}
+/*顶部--end*/
+
+/*功能菜单--Start*/
+.easyui-accordion ul{list-style-type:none;margin:0px; padding:0px;}
+.easyui-accordion ul li{ padding:0px;text-indent:35px;margin-bottom: 5px;}
+.easyui-accordion ul li a{line-height:24px;font-size:14px;color: white;}
+.easyui-accordion ul li div{margin:2px 0px;padding-left:10px;padding-top:2px;}
+.easyui-accordion ul li div.hover{cursor:pointer;}
+.easyui-accordion ul li div.selected{cursor:default;}
+.easyui-accordion ul li div.selected a{color:#FFEC8B; font-weight:bold;font-size: 15px}
+.icon-nav{background: url(../images/nav.png)}
+.icon-nav-card{background: url(../images/nav_card.png)}
+.icon-nav-chart{background: url(../images/nav_chart.png)}
+.icon-nav-edit{background: url(../images/nav_edit.png)}
+.icon-nav-express{background: url(../images/nav_express.png)}
+.icon-nav-list{background: url(../images/nav_list.png)}
+.icon-nav-man{background: url(../images/nav_man.png)}
+.icon-nav-sys{background: url(../images/nav_sys.png)}
+.icon-nav-user{background: url(../images/nav_user.png)}
+.icon-nav-cfg{background: url(../images/nav_cfg.png)}
+.icon-nav-permission{background: url(../images/nav_permission.png)}
+.icon-nav-data{background: url(../images/nav_data.png)}
+/*功能菜单--end*/
+
+
+/*搜索框*/
+.ContentContainer{margin: 8px;}
+.SearchTable {width: 100%;font-size: 14px;background: #718da6;margin-top: 8px; table-layout:fixed;}
+.Search_Label{background:#eeeeee;text-align: right;height: 30px;font-size: 15px;}
+.Search_Field{background:#fff;padding:3px 3px 3px 8px;font-size:14px;height: 30px;}
+.Search_Field .error{color:#A40018;font-family:Verdana, Arial;font-size:15px;}
+.Search_BtnRow{background:#eeeeee;text-align: right}
+/*搜索框end*/
+
+/*表格数据列表--Start*/
+.ListTable { background: #718da6; font-size: 15px; cursor: default;border-width:0px;width:100%}
+.ListTableHeader { color: #000; background: #dff0d8; font-size: 14px; font-weight: bold; text-align: center; height: 20px; }
+.ListTableHeader  th{ color: #444444;font-size: 16px}
+.ListTableContent td{font-size: 14px}
+.ListTableContent td a{font-size: 14px}
+.ListTableOddRow { background: #fff; }
+.ListTableEvenRow { background: #d9edf7; }
+.ListTableSelectedRow { background: #fcf8e3}
+.ListTableSelectedRow td{font-size: 14px}
+.ListTableSelectedRow td a{font-size: 14px}
+.ListTablePager { background:#fff; }
+.actionBar { background:#33CCFF; }
+.ListTablePager span { float: left;margin-left: 5px;}
+.pagination-first{background:url('./images/pagination_first.gif') no-repeat;display: block;width: 16px;height: 16px;}
+.pagination-prev{background:url('./images/pagination_prev.gif') no-repeat;display: block;width: 16px;height: 16px;}
+.pagination-next{background:url('./images/pagination_next.gif') no-repeat;display: block;width: 16px;height: 16px;}
+.pagination-last{background:url('./images/pagination_last.gif') no-repeat;display: block;width: 16px;height: 16px;}
+/*数据列表--End*/
+/*表单中各种规格的标签和相应的文本域--Start*/
+.editContainerTitle{font-size: 18px;color: #333333;margin-left: 25px}
+.editContainer{background-color: #fff;margin-top: 25px;margin-left: 10px;padding-top: 50px;padding-bottom: 25px}
+.editRow{overflow: hidden;margin-bottom: 20px}
+.edit_lable{width: 155px;float: left;padding: 0 15px;line-height: 38px;font-size: 15px;text-align: right}
+.edit_lable em{color: red;margin: 10px}
+.editRow p{margin-top: 0px}
+.editRow .result { float: left; line-height: 38px;padding: 0 15px;font-size: 15px;height: 36px;}
+.editRow .picPreview { float: left; padding: 0 15px;height: 250px;width: 300px;overflow: hidden;}
+.eidt_input{width: 300px;border: 1px solid #e0e0e0;height: 36px;line-height: 36px;text-indent: 10px;font-size: 15px;float:left;background-color: #F5F5F5}
+.edit_input_tip{color: #FF0000;font-size: 14px;line-height: 38px;float:left;margin-left: 10px;}
+.error .eidt_input{ background-color: #fde0dc;border-color: #f69988 !important;}
+.edit_choicebox{float: left;overflow: hidden;}
+.edit_choicebox_block{line-height: 38px;font-size: 14px;}
+.email{float: left;position: relative}
+.email input{font-size: 14px;height: 36px;line-height: 36px;text-indent: 10px;width: 300px;border: 1px solid #e0e0e0;text-indent: 40px;}
+.email i{position: absolute;width: 36px;height: 38px;display: block;left: 1px;top: 1px;background: url("../images/email.jpg") no-repeat center center #eee;}
+.password{float: left;position: relative}
+.password input{font-size: 14px;height: 36px;line-height: 36px;text-indent: 10px;width: 300px;border: 1px solid #e0e0e0;text-indent: 40px;}
+.password i{position: absolute;width: 36px;height: 38px;display: block;left: 1px;top: 1px;background: url("../images/password.jpg") no-repeat center center #eee;}
+.orangeBtn{width: 85px;height: 35px;background-color: #da7c0c;border-color: #da7c0c;color: #fff;border-radius:1.5em;margin-left: 15px}
+.grayBtn{width: 85px;height: 35px;background-color: #e0e0e0;border-color: #e0e0e0;color: black;border-radius:1.5em;margin-left: 15px}
+
+.editContainer.add-editContainer{margin-top:0;}
+.editRow.add-editRow{margin-bottom:5px;}
+.editContainer.add-editContainer{margin-top:0;}
+.editContainerTitle.add-editContainerTitle{margin:15px;}
+.order-info .editRow .result{height:30px; line-height:30px;}
+.order-info .edit_lable{line-height:30px;}
+.order-info .editRow .result{width:170px;}
+
+.ContentTable { background: #718da6; font-size: 12px; cursor: default;border-width:0px;width:98%; }
+.Label{background: #f2f7fc;padding: 3px 8px 3px 3px;font-family: Tahoma,Verdana,微软雅黑,新宋体;font-size:15px;text-align: right;height: 35px;width: 15%;}
+.Field{background: #fff;padding: 3px 3px 3px 8px;font-family: Tahoma,Verdana,微软雅黑,新宋体;font-size:14px;text-align: left;height: 24px;width: 35%;}
+.Field .error{color:#A40018;padding: 3px 3px 3px 5px;font-family:Verdana, Arial;font-size:15px;}
+
+.NoneBorderTextBox{font-family: Verdana, Arial; font-size: 15px; height: 30px; line-height:30px; width:100%; border-color: #FFFFFF #FFFFFF #FFFFFF; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; }
+.DropDownList{border: solid 1px #718da6; font-family: Verdana, Arial; font-size: 15px; height:25px;line-height: 25px;background-color: #eeeeee }
+.DropDownList option{font-family: Verdana, Arial; font-size: 15px; height:30px;line-height: 25px;}
+/*表单中各种规格的标签和相应的文本域--End*/
